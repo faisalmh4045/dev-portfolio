@@ -1,11 +1,12 @@
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
-    margin-bottom: 100px;
 }
 
-.top-banner {
+.flexible-container {
     display: flex;
+}
+.top-banner {
     background-image: url(../images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -36,15 +37,50 @@ body {
 }
 
 .dream-big {
-    display: flex;
     margin-top: 100px;
     background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
 }
-.dream-big p{
+.dream-big p {
     padding-right: 150px;
 }
-.dream-big a{
+.dream-big a {
     margin-top: 25px;
+}
+
+.experiences {
+    margin-top: 100px;
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experiences h1 {
+    margin-left: 5%;
+    font-size: 50px;
+}
+.experience-item {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 100px;
+    padding: 2%;
+    box-shadow: 10px 10px 20px lightgray;
+}
+.experience-item h2 {
+    font-size: 35px;
+}
+.experience-item h3 {
+    color: orange;
+}
+#full-web-exp {
+    border-left: 7px solid tomato;
+}
+#baby-web-exp {
+    border-left: 7px solid orange;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
 }
